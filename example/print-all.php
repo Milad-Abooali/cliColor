@@ -1,6 +1,6 @@
 <?php
 
-	$colors = new Colors();
+	$colors = new cliColor();
 	$fgs = $colors->getfgColors() {();
 	$bgs = $colors->getBgColors() {();
 
