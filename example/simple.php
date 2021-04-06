@@ -1,6 +1,7 @@
 <?php
 
-	$colors = new Colors();
+	include('../src/cliColor.php'); 
+	$colors = new cliColor();
 
 	echo $colors->setColor("Testing Colors class, this is purple string on yellow background.", "purple", "yellow") . "\n";
 	echo $colors->setColor("Testing Colors class, this is blue string on light gray background.", "blue", "light_gray") . "\n";
