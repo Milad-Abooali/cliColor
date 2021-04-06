@@ -1,0 +1,2 @@
+# clicolor
+CLI Color Class
