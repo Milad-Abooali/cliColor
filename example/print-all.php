@@ -1,6 +1,8 @@
 <?php
 
+	include('../src/cliColor.php'); 
 	$colors = new cliColor();
+
 	$fgs = $colors->getfgColors() {();
 	$bgs = $colors->getBgColors() {();
 
