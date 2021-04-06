@@ -10,35 +10,35 @@
  * @version    1.0.0
  */
 class Colors {
-    private $foreground_colors = array();
-    private $background_colors = array();
+    private $foreground = array();
+    private $background = array();
 
     public function __construct() {
-        $this->foreground_colors['black'] = '0;30';
-        $this->foreground_colors['dark_gray'] = '1;30';
-        $this->foreground_colors['blue'] = '0;34';
-        $this->foreground_colors['light_blue'] = '1;34';
-        $this->foreground_colors['green'] = '0;32';
-        $this->foreground_colors['light_green'] = '1;32';
-        $this->foreground_colors['cyan'] = '0;36';
-        $this->foreground_colors['light_cyan'] = '1;36';
-        $this->foreground_colors['red'] = '0;31';
-        $this->foreground_colors['light_red'] = '1;31';
-        $this->foreground_colors['purple'] = '0;35';
-        $this->foreground_colors['light_purple'] = '1;35';
-        $this->foreground_colors['brown'] = '0;33';
-        $this->foreground_colors['yellow'] = '1;33';
-        $this->foreground_colors['light_gray'] = '0;37';
-        $this->foreground_colors['white'] = '1;37';
+        $this->foreground['black'] = '0;30';
+        $this->foreground['d_gray'] = '1;30';
+        $this->foreground['blue'] = '0;34';
+        $this->foreground['l_blue'] = '1;34';
+        $this->foreground['green'] = '0;32';
+        $this->foreground['l_green'] = '1;32';
+        $this->foreground['cyan'] = '0;36';
+        $this->foreground['l_cyan'] = '1;36';
+        $this->foreground['red'] = '0;31';
+        $this->foreground['l_red'] = '1;31';
+        $this->foreground['purple'] = '0;35';
+        $this->foreground['l_purple'] = '1;35';
+        $this->foreground['brown'] = '0;33';
+        $this->foreground['yellow'] = '1;33';
+        $this->foreground['l_gray'] = '0;37';
+        $this->foreground['white'] = '1;37';
 
-        $this->background_colors['black'] = '40';
-        $this->background_colors['red'] = '41';
-        $this->background_colors['green'] = '42';
-        $this->background_colors['yellow'] = '43';
-        $this->background_colors['blue'] = '44';
-        $this->background_colors['magenta'] = '45';
-        $this->background_colors['cyan'] = '46';
-        $this->background_colors['light_gray'] = '47';
+        $this->background['black'] = '40';
+        $this->background['red'] = '41';
+        $this->background['green'] = '42';
+        $this->background['yellow'] = '43';
+        $this->background['blue'] = '44';
+        $this->background['magenta'] = '45';
+        $this->background['cyan'] = '46';
+        $this->background['l_gray'] = '47';
     }
 
     /**
@@ -46,7 +46,7 @@ class Colors {
      * @return array
      */
     public function getFgColors() {
-        return array_keys($this->foreground_colors);
+        return array_keys($this->foreground);
     }
 
     /**
@@ -54,22 +54,22 @@ class Colors {
      * @return array
      */
     public function getBgColors() {
-        return array_keys($this->background_colors);
+        return array_keys($this->background);
     }
 
     /**
      * Make Colored String
-     * @param string $text
-     * @param null|string $foreground_color
-     * @param null|string $background_color
+     * @param string $input
+     * @param null|string $fg_color
+     * @param null|string $bg_color
      * @return string
      */
-    public function setColor($text, $foreground_color = null, $background_color = null) {
-        $colored_string = null;
-        if (isset($this->foreground_colors[$foreground_color])) $colored_string .= "\033[" . $this->foreground_colors[$foreground_color] . "m";
-        if (isset($this->background_colors[$background_color])) $colored_string .= "\033[" . $this->background_colors[$background_color] . "m";
-        $colored_string .=  $text . "\033[0m";
-        return $colored_string;
+    public function setColor($input, $fg_color = null, $bg_color = null) {
+        $output = null;
+        if ($this->foreground[$fg_color] ?? false) $output .= "\033[" . $this->foreground[$fg_color] . "m";
+        if ($this->background[$bg_color] ?? false) $output .= "\033[" . $this->background[$bg_color] . "m";
+        $output .=  $input . "\033[0m";
+        return $output;
     }
 
 }
