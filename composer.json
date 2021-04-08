@@ -21,5 +21,12 @@
     "files": [
       "src/cliColor.php"
     ]
-  }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "cliColor\\cliColor"
+      ]
+    }
+  },
 }
