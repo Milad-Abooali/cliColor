@@ -1,0 +1,25 @@
+{
+  "name": "Milad-Abooali/cliColor",
+  "description": "PHP Class for Coloring PHP Command Line (CLI) Scripts Output",
+  "type": "library",
+  "require": {
+    "php": ">=7.0.3",
+    "illuminate/support": "5.6.* || 5.7.* || 5.8.* || 6.0.*"
+  },
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Milad Abooali",
+      "email": "m.abooali@hotmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "cliColor\\": "src/"
+    },
+    "files": [
+      "src/cliColor.php"
+    ]
+  }
+}
