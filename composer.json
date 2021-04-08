@@ -9,7 +9,8 @@
   "authors": [
     {
       "name": "Milad Abooali",
-      "email": "m.abooali@hotmail.com"
+      "email": "m.abooali@hotmail.com",
+      "role": "Developer"
     }
   ],
   "minimum-stability": "dev",
