@@ -2,7 +2,6 @@
 
 PHP Class for Coloring PHP Command Line (CLI) Scripts Output
 
-[![Total Downloads](https://packagist.org/packages/milad-abooali/cli-color)](https://packagist.org/packages/milad-abooali/cli-color)
 [![License](https://poser.pugx.org/milad-abooali/cli-color/license)](https://packagist.org/packages/milad-abooali/cli-color)
 
 
