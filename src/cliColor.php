@@ -9,6 +9,9 @@
  * @license    https://opensource.org/licenses/Apache-2.0  Apache License, Version 2.0
  * @version    1.0.0
  */
+
+namespace cliColor;
+
 class cliColor {
     private $foreground = array();
     private $background = array();
