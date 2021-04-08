@@ -16,7 +16,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "cliColor\\": "src/"
+      "cliColor\\": "src/cliColor"
     },
     "files": [
       "src/cliColor.php"
