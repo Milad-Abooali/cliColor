@@ -1,5 +1,5 @@
 {
-  "name": "onrim/cliColor",
+  "name": "milad-abooali/cli-color",
   "description": "PHP Class for Coloring PHP Command Line (CLI) Scripts Output",
   "type": "library",
   "require": {
