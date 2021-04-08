@@ -2,9 +2,6 @@
 
 PHP Class for Coloring PHP Command Line (CLI) Scripts Output
 
-[![License](https://poser.pugx.org/milad-abooali/cli-color/license)](https://packagist.org/packages/milad-abooali/cli-color)
-
-
 # CLI Color
 PHP Class for Coloring PHP Command Line (CLI) Scripts Output
 
