@@ -1,4 +1,4 @@
 # PHP Class for Coloring PHP Command Line (CLI) Scripts Output
 
 
-![Example](https://ibb.co/pvjwx3B)
+![Example](https://i.ibb.co/273hyj1/Capture.png)
