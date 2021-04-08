@@ -3,8 +3,7 @@
   "description": "PHP Class for Coloring PHP Command Line (CLI) Scripts Output",
   "type": "library",
   "require": {
-    "php": ">=7.0.3",
-    "illuminate/support": "5.6.* || 5.7.* || 5.8.* || 6.0.*"
+    "php": ">=7.0.3"
   },
   "license": "MIT",
   "authors": [
