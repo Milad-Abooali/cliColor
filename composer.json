@@ -1,5 +1,5 @@
 {
-  "name": "codebox/cliColor",
+  "name": "onrim/cliColor",
   "description": "PHP Class for Coloring PHP Command Line (CLI) Scripts Output",
   "type": "library",
   "require": {
