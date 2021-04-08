@@ -1,5 +1,5 @@
 {
-  "name": "Milad-Abooali/cliColor",
+  "name": "codebox/cliColor",
   "description": "PHP Class for Coloring PHP Command Line (CLI) Scripts Output",
   "type": "library",
   "require": {
