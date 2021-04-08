@@ -2,13 +2,8 @@
 
 PHP Class for Coloring PHP Command Line (CLI) Scripts Output
 
-[![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
-
-[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit)
-
-[![Build Status](https://travis-ci.com/Milad-Abooali/cliColor.svg?branch=main)](https://travis-ci.com/Milad-Abooali/cliColor)
-[![codecov](https://codecov.io/gh/wujunze/php-cli-color/branch/master/graph/badge.svg)](https://codecov.io/gh/wujunze/php-cli-color)
-[![Latest Stable Version](https://poser.pugx.org/wujunze/php-cli-color/v/stable)](https://packagist.org/packages/wujunze/php-cli-color) [![Total Downloads](https://poser.pugx.org/wujunze/php-cli-color/downloads)](https://packagist.org/packages/milad-abooali/cli-color) [![License](https://poser.pugx.org/wujunze/php-cli-color/license)](https://packagist.org/packages/wujunze/php-cli-color)
+[![Total Downloads](https://packagist.org/packages/milad-abooali/cli-color)](https://packagist.org/packages/milad-abooali/cli-color)
+[![License](https://poser.pugx.org/milad-abooali/cli-color/license)](https://packagist.org/packages/milad-abooali/cli-color)
 
 
 # CLI Color
