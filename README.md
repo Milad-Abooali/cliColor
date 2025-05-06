@@ -12,7 +12,7 @@ $ composer require milad-abooali/cli-color
 ```
 
 ## Usage
-Genrate random password.
+Set color for echo output:
 ```php
 <?php
 
